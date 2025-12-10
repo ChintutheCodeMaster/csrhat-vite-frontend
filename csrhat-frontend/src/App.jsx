@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 import Volunteer from "./components/Volunteer";
 import News from "./components/News";
 import { Link } from "react-router-dom";
-
+import Login from "./components/NGOlogin";
+import Signup from "./components/NGOsignup";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <Route path="jobs" element={<Jobs/>} />
         <Route path="volunteer" element={<Volunteer/>} />     
         <Route path="news" element={<News/>} />     
+        <Route path="signup" element={<Signup/>} />     
+        <Route path="login" element={<Login/>} />     
       </Routes>
     </Router>
   );
