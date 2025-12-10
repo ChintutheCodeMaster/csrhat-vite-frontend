@@ -23,9 +23,9 @@ const Navbar = () => {
         <li className="cursor-pointer hover:text-purple-600" onClick={()=>{navigate("/")}}>Home</li>
         <li className="cursor-pointer hover:text-purple-600" onClick={()=>{navigate("/jobs")}}>Jobs</li>
         <li className="cursor-pointer hover:text-purple-600" onClick={()=>{navigate("/volunteer")}}>Volunteer</li>
-        <li className="cursor-pointer hover:text-purple-600">Awards</li>
-        <li className="cursor-pointer hover:text-purple-600">News</li>
-        <li className="cursor-pointer text-blue-600 hover:text-blue-600">Socio Partners</li>
+        <li className="cursor-pointer hover:text-purple-600" onClick={()=>window.open("https://www.sociostarawards.com/", "_blank")}>Awards</li>
+        <li className="cursor-pointer hover:text-purple-600" onClick={()=>{navigate("/news")}}>News</li>
+        <li className="cursor-pointer text-blue-600 hover:text-purple-600">Socio Partners</li>
       </ul>
 
       {/* Button */}

@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: process.env.VITE_BASE_PATH || "/csrhat-vite-frontend"
+  base: process.env.VITE_BASE_PATH || "/"
 })

@@ -3,11 +3,12 @@ import Navbar from "./Navbar";
 
 const Jobs = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-100 py-16 px-6 pt-20">
+    <div className="w-full min-h-screen py-16 px-6 bg-gradient-to-b from-purple-100 to-purple-50">
+
       
 
       {/* Floating Search Bar */}
-      <div className="flex justify-center mb-16">
+      <div className="flex justify-center mb-6 mt-12">
         <div className="bg-white shadow-lg rounded-full px-6 py-4 flex flex-col md:flex-row items-center gap-4 w-full max-w-5xl">
 
           <input

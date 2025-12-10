@@ -4,6 +4,7 @@ import Banner from "./components/supportcomponents/Banner";
 import Jobs from "./components/Jobs";
 import Navbar from "./components/Navbar";
 import Volunteer from "./components/Volunteer";
+import News from "./components/News";
 import { Link } from "react-router-dom";
 
 
@@ -12,11 +13,10 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        
         <Route path="/" element={<Home />} />
         <Route path="jobs" element={<Jobs/>} />
-        <Route path="volunteer" element={<Volunteer/>} />
-        
+        <Route path="volunteer" element={<Volunteer/>} />     
+        <Route path="news" element={<News/>} />     
       </Routes>
     </Router>
   );

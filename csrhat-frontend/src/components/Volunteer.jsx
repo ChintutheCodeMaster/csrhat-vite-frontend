@@ -5,7 +5,7 @@ const Volunteer = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="pt-24 pb-10 px-4 bg-gradient-to-b from-purple-50 to-purple-200 min-h-screen">
+    <div className="pt-24 pb-10 px-4 bg-gradient-to-b from-purple-100 to-purple-50 min-h-screen">
 
       {/* Title + Subtitle */}
       <div className="text-center mb-12">
